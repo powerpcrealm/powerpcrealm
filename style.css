@@ -8,7 +8,7 @@ background: url("style/bg.jpg");
 
 .nav{
 background-color:#50505a;
-font-size:16px;
+font-size:15px;
 margin:0;
 padding-left:3%;
 padding-right:3%;
@@ -16,6 +16,10 @@ padding-top:1.2%;
 padding-bottom:1.2%;
 border-top:double;
 border-bottom:double;
+position:fixed;
+overflow:hidden;
+top:0;
+width:100%;
 }
 
 .navlink{
@@ -29,7 +33,7 @@ border-top:double;
 background-color:white;
 margin-left:10.2%;
 margin-right:10.2%;
-margin-top:2%;
+margin-top:4%;
 padding-left:3%;
 padding-right:3%;
 padding-top:2%;
